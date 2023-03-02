@@ -5,7 +5,7 @@ import Registration from "./Registration";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route path="/it-teacher-login" element={<Login />} />
       <Route path="/createaccount" element={<Registration />} />
     </Routes>
   );
