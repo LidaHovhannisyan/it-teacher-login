@@ -168,7 +168,7 @@ function Registration() {
         <form className={classes.form}>
           <div className={classes.divContainer}>
             <div>
-              <label className={classes.label} for="first_name">
+              <label className={classes.label} htmlFor="first_name">
                 First name
               </label>
               <input
@@ -179,7 +179,7 @@ function Registration() {
             </div>
             <div>
               {" "}
-              <label className={classes.label} for="last_name">
+              <label className={classes.label} htmlFor="last_name">
                 Last name
               </label>
               <input
@@ -190,7 +190,7 @@ function Registration() {
             </div>
           </div>
           <div className={classes.divEmail}>
-            <label className={classes.label} for="email">
+            <label className={classes.label} htmlFor="email">
               Email
             </label>
             <input
@@ -201,7 +201,7 @@ function Registration() {
           </div>
           <div className={classes.divContainer}>
             <div>
-              <label className={classes.label} for="userName">
+              <label className={classes.label} htmlFor="userName">
                 Username
               </label>
               <input
@@ -212,7 +212,7 @@ function Registration() {
             </div>
             <div className={classes.divChoice}>
               <input type="radio" id="male" name="contact" value="male"></input>
-              <label for="male" className={classes.radioLabel}>
+              <label htmlFor="male" className={classes.radioLabel}>
                 Male
               </label>
               <input
@@ -221,7 +221,7 @@ function Registration() {
                 name="contact"
                 value="female"
               ></input>
-              <label for="female" className={classes.radioLabel}>
+              <label htmlFor="female" className={classes.radioLabel}>
                 Female
               </label>
             </div>
@@ -229,7 +229,7 @@ function Registration() {
 
           <div className={classes.divContainer}>
             <div>
-              <label className={classes.label} for="password">
+              <label className={classes.label} htmlFor="password">
                 Password
               </label>
               <input
@@ -239,7 +239,7 @@ function Registration() {
               ></input>
             </div>
             <div>
-              <label className={classes.label} for="confirm_password">
+              <label className={classes.label} htmlFor="confirm_password">
                 Confirm password
               </label>
               <input
@@ -251,7 +251,7 @@ function Registration() {
           </div>
           <div>
             <input type="checkbox" name="checkbox" value="Bike"></input>
-            <label for="checkbox" className={classes.checkLabel}>
+            <label htmlFor="checkbox" className={classes.checkLabel}>
               <span>
                 I agree to the
                 <a className={classes.link} href="">
@@ -269,7 +269,7 @@ function Registration() {
             <button
               className={classes.login}
               onClick={() => {
-                navigate("/");
+                navigate("/it-teacher-login");
               }}
             >
               Login
