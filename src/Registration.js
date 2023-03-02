@@ -163,8 +163,10 @@ function Registration() {
 
   return (
     <div className={classes.app}>
-      <h1 className={classes.registrationTitle}>Registration Form</h1>
-      <div className={classes.container}>
+      <header>
+        <h1 className={classes.registrationTitle}>Registration Form</h1>
+      </header>
+      <section className={classes.container}>
         <form className={classes.form}>
           <div className={classes.divContainer}>
             <div>
@@ -276,7 +278,7 @@ function Registration() {
             </button>
           </div>
         </form>
-      </div>
+      </section>
     </div>
   );
 }
